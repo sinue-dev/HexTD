@@ -9,7 +9,7 @@ public class PointyHexagon
 	private Vector2[] uv;
 
 	/// Builds a hexagon mesh with 6 triangles
-	public PointyHexagon(bool separateFaceVertices, float cellSize)
+	public PointyHexagon()
 	{
 		#region verts
 

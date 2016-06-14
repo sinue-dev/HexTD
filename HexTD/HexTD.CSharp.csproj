@@ -62,10 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\GridManager.cs" />
-    <Compile Include="Assets\Scripts\Hex.cs" />
-    <Compile Include="Assets\Scripts\HexChunk.cs" />
-    <Compile Include="Assets\Scripts\HexObject.cs" />
+    <Compile Include="Assets\Scripts\GridGeneration\Endless\Chunk\Chunk.cs" />
+    <Compile Include="Assets\Scripts\GridGeneration\Endless\Chunk\ChunkObject.cs" />
+    <Compile Include="Assets\Scripts\GridGeneration\Endless\Hex\Hex.cs" />
+    <Compile Include="Assets\Scripts\GridGeneration\Endless\Hex\HexChunk.cs" />
+    <Compile Include="Assets\Scripts\GridGeneration\Endless\Hex\HexObject.cs" />
+    <Compile Include="Assets\Scripts\GridGeneration\GridManager.cs" />
     <Compile Include="Assets\Scripts\Mesh\PointyHexagon.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
   </ItemGroup>
